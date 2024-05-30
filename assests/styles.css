@@ -4,10 +4,11 @@
     font-family:'Times New Roman', Times, serif;
 
 }
+
 nav{
     height: 72px;
     border-bottom:3px solid rgba(0, 0, 0, 0.2);
-    font-size: 22px;
+    font-size: 19px;
 }
 #offer{
     display: inline;
@@ -50,21 +51,34 @@ img{
 }
 #Login{
     font-size: 20px;
-    padding: 7px 20px;
+    padding-right: 15px;
+    padding-left: 15px;
 
 
 }
+#sign-up{
+    margin-right:2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
 .Sign-up{
     background-color: #00A5EC;
     color: white;
+    padding: 3px;
+    margin-right: 20px;
 }
 button{
     margin-right: 20px;
     color: #00A5EC;
-    font-size: 23px;
+    font-size: 19px;
     border: 2px solid #00A5EC;
     border-radius: 5px;
     background-color: white;
+    cursor: pointer;
 }
 #dropdown{
     position: relative;
@@ -80,6 +94,7 @@ h1{
     font-weight: 700;
     font-size: 44px;
     color: #333;
+    
 }
 h2{
     position: relative;
