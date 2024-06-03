@@ -4,6 +4,9 @@
     font-family:'Times New Roman', Times, serif;
 
 }
+.contant-Area{
+    height: 700px;
+}
 
 nav{
     height: 72px;
@@ -139,4 +142,111 @@ h2{
     border-radius: 15px;
     background-image: url("/internshala-clone/assests/images/div-images/thirdwebp.webp");
     background-size: cover;
+}
+
+/* new lable */
+.newinternships{
+    background-color: rgba(228, 227, 227, 0.196);
+    margin-top: 40px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.CATEGORIES{
+    position: relative;
+    width: 90%;
+    left: 100px;
+    bottom: 680px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.shape{
+    border:1px solid rgba(0, 0, 0, 0.213);
+    border-radius: 15px;
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+
+}
+.shape:hover{
+    background-color: #3c89d6;
+    border: none;
+}
+
+
+/* boxes */
+.interships-content{
+    position: relative;
+    bottom: 600px;
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.hiring{
+    height: 400px;
+    width: 18%;
+    background-color: white;
+    border-radius: 15px;
+    border: 0.2px solid rgb(237, 237, 237);
+}
+.hiring p{
+    position: relative;
+    left: 10px;
+    top: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.hiring .comanystockname{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.467);
+
+}
+.hiring .Comapanylogo {
+    position: relative;
+    top: -20px;
+    left: 150px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.hiring .moreDetails p {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.467);
+}
+
+.hiring .moreDetails .inside-border{
+    position: relative;
+    top: 10px;
+    width: 250px;
+    border-top: 0.50px solid rgba(0, 0, 0, 0.132);
+}
+
+.hiring .intern{
+    position: relative;
+    top: 150px;
+    left: 10px;
+    height: 20px;
+    font: 15px;
+    width: 60px;
+    padding: 2px 6px 2px 6px ;
+    text-align: center;
+    border-radius: 7px;
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    background-color:rgba(0, 0, 0, 0.132) ;
+
+}
+
+.hiring .view{
+    position: relative;
+    top: 150px;
+    left: 70px;
+    color: rgba(0, 0, 255, 0.696);
 }
