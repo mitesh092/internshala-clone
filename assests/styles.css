@@ -250,3 +250,25 @@ h2{
     left: 70px;
     color: rgba(0, 0, 255, 0.696);
 }
+
+
+/* underline animation */
+.underline{
+    position: relative;
+    height: 35px;
+    width: 525px;
+    background-image: url("/internshala-clone/assests/images/underline_fire.png");
+    left: 500px;
+    top: 44px;
+    animation: lineanimtion 1.5s ease-in 1s 1 normal forwards;
+}
+
+
+@keyframes lineanimtion {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 525px;
+    }
+}
