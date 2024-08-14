@@ -125,13 +125,13 @@ h2{
     width: 392px;
     height: 261px;
     border-radius: 15px;
-    background-image: url("/internshala-clone/assests/images/div-images/First.png");
+    background-image: url("/assests/images/div-images/First.png");
     background-size: cover;
 }
 #second-image{
     width: 392px;
     height: 261px;
-    background-image: url("/internshala-clone/assests/images/div-images/second.webp");
+    background-image: url("/assests/images/div-images/second.webp");
     background-size: cover;
     border-radius: 15px;
 }
@@ -140,7 +140,7 @@ h2{
     
     height: 261px;
     border-radius: 15px;
-    background-image: url("/internshala-clone/assests/images/div-images/thirdwebp.webp");
+    background-image: url("/assests/images/div-images/thirdwebp.webp");
     background-size: cover;
 }
 
@@ -257,7 +257,7 @@ h2{
     position: relative;
     height: 35px;
     width: 525px;
-    background-image: url("/internshala-clone/assests/images/underline_fire.png");
+    background-image: url("/assests/images/underline_fire.png");
     left: 500px;
     top: 44px;
     animation: lineanimtion 1.5s ease-in 1s 1 normal forwards;
